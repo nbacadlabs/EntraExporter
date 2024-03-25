@@ -11,7 +11,7 @@ jobs:
   - job: backup_azure
     displayName: Backup Azure configuration
     pool:
-      vmImage: windows-latest
+      name: Default
     continueOnError: false
     steps:
     - checkout: self
